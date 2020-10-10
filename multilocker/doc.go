@@ -8,7 +8,7 @@
 // similar to the rules concering single lockers:
 //
 //     * Multilockers are not recursive. Do not try to lock a locked
-//       multilocker. Do not try to unlock a locked multilocker.
+//       multilocker. Do not try to unlock an unlocked multilocker.
 //     * Do not copy a multilocker.
 //     * Do not try to create a multilocker from both the write and the read
 //       locker of a sync.RWMutex.
