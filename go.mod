@@ -1,3 +1,3 @@
-module github.com/TheCount/go-multilock
+module github.com/TheCount/go-multilocker
 
 go 1.14
